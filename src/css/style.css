@@ -1,12 +1,13 @@
 body {
   background-color: #000000;
+  overflow-y : hidden;
 }
 
 span{
   font-family: sans-serif;
   position: absolute;
   color:white;
-  font-size: 30px;
+  font-size: 24px;
   bottom: 30px;
   left: 30px;
 }
@@ -40,8 +41,8 @@ span{
   position: absolute;
   top: 0;
   left: 0;
-  width: 60%;
-  height: 60%;
+  width: 45%;
+  height: 45%;
   border-radius: 50%;
   color: transparent;
   animation: transformObj 7.5s 1.3s infinite;
